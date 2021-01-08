@@ -5,7 +5,7 @@
     <header id="cabecalho">
       <nav id="menu">
         <ul>
-          <li><a href="/viniciustutoriais/home.php">Home</a></li>
+          <li><a href="../home.php">Home</a></li>
           <li><a href="tutoriais-html">HTML-CSS-Javascript</a></li>
           <li><a href="tutoriais-historia">História</a></li>
           <li><a href="contato.html">Contato</a></li>
