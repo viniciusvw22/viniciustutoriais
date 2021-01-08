@@ -35,7 +35,7 @@
       </section>
       <section id="avioes">
         <h2>Aviões!</h2>
-        <p><a href="/viniciustutoriais/_avioes/aviao-ac-130.php">Conheça o Lockheed AC-130</a></p>
+        <p><a href="_avioes/aviao-ac-130.php">Conheça o Lockheed AC-130</a></p>
       </section>
     </main>
     <aside id="adquira-cursos">
