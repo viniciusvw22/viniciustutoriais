@@ -21,13 +21,13 @@
       <section id="aprenda-programar">
         <h2>Aprenda a programar!</h2>
         <article>
-          <p><a href="box-sizing.php">Aprenda a propridade CSS: box-sizing hoje! </a></p>
+          <p><a href="_programacao/box-sizing.php">Aprenda a propridade CSS: box-sizing hoje! </a></p>
         </article>
         <article>
-          <p><a href="declaracao-important.html">Aprenda a usar o valor CSS !important e porque devemos evitá-lo!</a></p>
+          <p><a href="_programacao/declaracao-important.html">Aprenda a usar o valor CSS !important e porque devemos evitá-lo!</a></p>
         </article>
         <article>
-          <p><a href="explicando-transition.html">Aprenda a usar a propriedade transition!</a></p>
+          <p><a href="_programacao/explicando-transition.html">Aprenda a usar a propriedade transition!</a></p>
         </article>
         <article>
           <p><a href="_programacao/explicando-section-nav-footer.php">Aprenda a usar section, aside e footer!</a></p>
