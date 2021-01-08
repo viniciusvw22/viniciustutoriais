@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+/* Este estilo será aplicado somente à página home.html */
+
+main#meus-artigos {
+  float: left;
+
+  border-right: 1px solid #606060;
+  padding-bottom: 10px;
+  padding-left: 45px;
+}
+
+aside#adquira-cursos {
+  float: right; 
+}
+
+aside#adquira-cursos p, aside#adquira-cursos h3 {
+  text-indent: 10px;
+}
+
+footer#rodape {
+  clear: both;
+}
+
+footer#rodape p {
+  text-align: center;
+}
+
+

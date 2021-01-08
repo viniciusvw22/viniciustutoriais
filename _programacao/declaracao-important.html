@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<meta charset="UTF-8"/>
+	<link rel="stylesheet" type="text/css" href="dec-importante.css"/>
+	<! rel: relação do documento linkado. 
+	   href: url do estilo
+	   type: tipo do conteúdo linkado.>
+	<title>Vinícius Tutoriais</title>
+	
+	<style>
+	  body, nav#menu ul {
+	    margin-top: 0px;
+	  }
+	
+    /* Menu */	
+	  nav#menu ul {
+	    list-style: none;
+	    position: relative;
+	    left: 200px;
+	  }
+	  
+	  nav#menu li {
+	    display: inline-block;
+	    background-color: rgba(188, 255, 157, 0.9);
+	    padding: 10px 20px 10px 20px;
+      margin: 0px 2px 0px 2px;
+      transition: background 1s;
+
+	  }
+	  
+	  /* Transições de Menu */
+	  
+	  nav#menu li:hover {
+	    background-color: rgb(175, 180, 250);
+	    
+
+	  }
+	  
+	  
+	  div.pai {
+	    color: blue;
+	  }
+	  
+	  div.pai {
+	    color: green;
+	  }
+	  
+	  pre, code {
+	    margin: 0px;
+	  }
+	
+	</style>
+	
+</head>
+
+<body>
+  <div id="interface">
+    <header id="cabecalho">
+      <nav id="menu">
+        <ul>
+          <li>Home</li>
+          <li>HTML-CSS-Javascript</li>
+          <li>História</li>
+          <li>Contato</li>
+        </ul>
+      </nav>
+      
+      <h1>Vinícius Tutoriais</h1>
+      
+    </header>
+  
+  
+
+	  <h2>Aprenda a usar o valor !important e porque evitá-lo ao máximo.</h2>
+	  
+	  </p> 
+	  
+	  <p>A declaração !important serve para que o valor definido para um atributo CSS não seja sobrescrito por outro valor posteriormente.</p>
+	  <p>Veja um exemplo:</p>
+	  Código HTML:
+	  <pre>
+    <code>
+      &lt;body&gt;
+        &lt;div class="pai"&gt;
+          &lt;p&gt;Esse é o texto de contido no div pai.&lt;/p&gt;
+          &lt;div class="filho"&gt;
+            &lt;p&gt;Esse é o texto contido no div filho, que por sua vez está contido <wbr/>no div pai.&lt;/p&gt;
+          &lt;/div&gt;
+            
+        &lt;/div&gt;
+      &lt;/body&gt;
+    </code>
+	  </pre>
+	  
+    Código CSS:
+	  <pre>
+	  <code>
+      div.pai {
+          color: blue;
+      }
+
+      div.pai {
+        color: green;
+      }  
+	  </code>
+	  </pre>
+	  
+	  Resultado:    
+	  
+    <div class="pai">
+      <p>Primeira div com classe .pai</p>
+      
+    </div>
+    
+    <div class="pai">
+      <p>Segunda div com classe .pai.</p>
+    </div>
+    Como o valor 'color: green' foi definido por último, esta prevalece. Se usarmos a declaração !important em 'color: blue', teremos que a cor permanecerá azul:
+    
+    <pre>
+	  <code>
+      div.pai {
+        color: blue !important;
+      }
+
+      div.pai {
+        color: green;
+      }   
+	  </code>
+	  </pre>
+	  
+	  Resultado:    
+	  
+    <div class="pai" style="color:blue;">
+      <p>Primeira div com classe .pai</p>
+      
+    </div>
+    
+    <div class="pai" style="color:blue;">
+      <p>Segunda div com classe .pai.</p>
+    </div>
+    
+    <h2>Por que não usar a declaração !important</h2>
+    <p>CSS significa Cascading Style Sheets. Vamos ler o significado de Cascading no Dicionário Cambridge:
+	  
+	  <blockquote cite="https://dictionary.cambridge.org/pt/dicionario/ingles/cascading">"to pass on information by giving it to just a few people, who then give it to more people; to be passed on in this way:" <br/>
+	  
+    <p>>> Distribuir informações para apenas algumas pessoas, que então passarão para mais algumas outras pessoas da mesma forma, e assim sucessivamente. </br></p>
+	  </blockquote>
+		  
+	  <p>É como em uma empresa, que a informação é passada de um chefe para seu subordado mais próximo, que vai passagem para alguns poucos subordinados próximos dele, assim por diante, até a informação chegar até o nível mais baixo. Portanto, CSS funciona por hierarquia. Devemos seguir esta regra, portanto, evitando usar !important, para não ter dor de cabeça mais para frente.</p>
+	  
+  </div>
+</body>
+
+</html>

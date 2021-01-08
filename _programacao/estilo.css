@@ -1,0 +1,109 @@
+@charset "UTF-8";
+
+/* Formatação do Site ViniciusTutoriais / box-sizing*/
+
+body, nav#menu ul {
+  margin-top: 0px;   
+}
+
+
+/* Menu de navegação */
+nav#menu ul {
+  list-style: none;
+
+}
+
+nav#menu li {
+  display: inline-block;
+  background-color: rgb(4, 214, 216, 0.3); 
+  padding: 8px 20px 8px 20px;
+  margin: 0px 1px 4px 1px;
+  transition: background-color 1s;
+}
+
+
+nav#menu li:hover {
+  background-color: #FFE677;
+}
+
+/* Blocos de conteúdo */
+
+div.area-blocos-grossos {
+  width: 640px;
+  height: 640px;
+  position: relative;
+
+}
+
+.bloco-solido {
+  border-style: solid; 
+  padding: 10px;
+  
+}
+
+/* Blocos Cores: */
+.borda-azul {
+  border-color: blue;
+}
+
+.borda-vermelha {
+  border-color: red;
+}
+
+/* Blocos Traços */
+
+.traco-grosso {
+  border-width: 8px;
+}
+
+.traco-fino {
+  border-width: 2px;
+}
+
+.bloco-solido.traco-grosso {
+  width: 300px;
+  height: 600px;
+
+  /* Fazendo com que os blocos de traço grossos fiquem alinhados. */
+  display: inline-block;
+  
+}
+
+/* Apenas no bloco vermelho de traço grosso: */
+.bloco-solido.traco-grosso.borda-vermelha {
+  box-sizing: border-box;
+  position: absolute;
+  right: 0px;
+
+}
+
+.bloco-solido.traco-grosso.borda-vermelha .linha-de-cota {
+  position: relative;
+  top: 20px;
+  left: -18px;
+}
+
+
+h2 {
+  font-size: 18px;
+}
+
+
+/* Formatação das imagens */
+img.gata-mae-foto{
+  width: 100%
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

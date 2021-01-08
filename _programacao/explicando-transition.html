@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8"/>
+  <title>CSS transition - Explicação</title>  
+  <link type="text/css" rel="stylesheet" href="../_css/main.css"/>
+  <link type="text/css" rel="stylesheet" href="../_css/explicando-transition.css"/>
+</head>
+
+<body>
+  <h1>Explicando CSS: transition</h1>
+  <p>transition: Quando uma propriedade muda de valor, transition faz essa mudança acontecer de forma suave.</p>
+  
+  <h2>Como usar (generalização):</h2>
+  <pre>
+    <code>
+    elemento de destino {
+      (propriedade de destino): valor;
+      transition: (propriedade de destino) (tempo de transição);
+    }
+  
+    elemento de destino:hover {
+      (propriedade de destino): novovalor;
+    }
+  </code>
+  </pre>
+  
+  <h2>Como usar (exemplo):</h2>
+  <pre>
+    <code>
+    li {
+      background-color: blue;
+      transition: background-color 1s;
+    }
+    
+    li:hover {
+      background-color: green;
+    }
+  </code>
+  </pre>
+  
+  <pre><code>
+    &lt;ul type="none"&gt;
+      &lt;li&gt;elemento de destino&lt;/li&gt;
+    &lt;/ul&gt;    
+  </code>
+  </pre>
+  
+  <ul class="transition-exemplo" type="none">
+    <li>elemento de destino</li>
+  </ul>
+  
+  <p>No exemplo, toda vez que o usuário passar o mouse em cima do item da lista, a cor irá percorrer o intervalo de cores, da cor azul até chegar à cor verde. E essa transição levará 1s.</p>
+</body>
+
+</html>

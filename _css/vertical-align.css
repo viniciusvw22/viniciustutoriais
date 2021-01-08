@@ -1,0 +1,9 @@
+@charset "UTF-8";
+
+img {
+  vertical-align: baseline;
+}
+
+h2 {
+  display: inline-block;
+}

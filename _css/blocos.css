@@ -1,0 +1,69 @@
+@charset "UTF-8";
+
+
+main#explica-box-sizing {
+  height: auto;
+  display: inline-block;
+  height: 1251px;
+}
+aside {
+  display: inline-block;
+  vertical-align: top;
+  height: 1251px;
+  border-left: 1px solid #606060;
+}
+
+/* Propriedades de Blocos */
+.bloco {
+  border-style: solid;
+  padding: 10px;
+  margin: 10px;
+}
+
+.bloco h1 {
+  font-size: 16px;
+}
+
+/* Cores: */
+.bloco.vermelho {
+  border-color: red;
+}
+.bloco.azul {
+  border-color: blue;
+}
+.bloco.espesso {
+  width: 300px;  
+  height: 800px; 
+  border-width: 2px;
+  display: inline-block; 
+  padding: 10px;
+  margin: 10px;
+}
+.bloco.espesso.vermelho {
+  box-sizing: border-box;
+}
+.bloco.espesso.azul {
+  float: left;
+} 
+.bloco.fino {
+  border-width: 1px;
+}
+
+.bloco.fino.azul {
+  clear: left;
+}
+
+/* Propriedades das imagens */
+img.gata-mae-foto {
+  width: 100%;
+} 
+img.linha-de-cota.vermelho {
+  position: relative;
+  left: -12px;
+}
+
+/* Seções da página */
+footer#rodape p {
+  text-align: center;
+}
+

@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+aside#garanta-seu-curso {
+  border-right: 1px solid #6277eee7;
+  text-align: center;
+}
+
+main#conteudo-principal {
+  padding-left: 10px;
+}
+
+section#exemplo div.texto-ao-centro {
+  text-align: center;
+}
+
+section#exemplo div.texto-a-direita {
+  text-align: right;
+}
+
+section#exemplo div.texto-a-esquerda {
+  text-align: left;
+}
+
+section#exemplo div.texto-justificado {
+  text-align: justify;
+}
+

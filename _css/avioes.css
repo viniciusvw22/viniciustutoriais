@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+main#artigo-aviao {
+  float: right;
+  /*width: 83%;*/
+  /*height: 868px;*/
+  border-left: 1px solid #606060;
+  padding-left: 12px;
+  padding-bottom: 10px;
+}
+/*
+aside#curso-aviacao {
+  float: left;
+  width: 198px;
+  height: 875px;
+}
+*/
+
+aside#curso-aviacao {
+  float: left;
+}
+aside#curso-aviacao p {
+  padding-right: 2px;
+}
+
+table#tabela-spec {
+  border: 1px solid black;
+  border-spacing: 0px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+table#tabela-spec td, table#tabela-spec th {
+  border: 1px solid black;
+  padding: 10px;
+}
+
+table#tabela-spec td {
+  text-align: left;
+}
+
+table#tabela-spec th {
+  text-align: right;
+  vertical-align: top;
+}
+
+
+table#tabela-spec th.cabecalho-coluna {
+  text-align: center;
+  background-color: rgba(127, 127, 235, 0.829);
+}
