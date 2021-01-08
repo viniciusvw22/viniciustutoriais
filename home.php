@@ -32,6 +32,9 @@
         <article>
           <p><a href="_programacao/explicando-section-nav-footer.php">Aprenda a usar section, aside e footer!</a></p>
         </article>
+        <article>
+          <p><a href="_programacao/vertical-align.php">Explicando a propriedade CSS vertical-align</a></p>
+        </article>
       </section>
       <section id="avioes">
         <h2>Aviões!</h2>

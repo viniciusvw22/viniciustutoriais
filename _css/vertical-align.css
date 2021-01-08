@@ -1,9 +1,102 @@
 @charset "UTF-8";
 
-img {
-  vertical-align: baseline;
+
+body {
+  background-color: rgba(138, 210, 238, 0.5);
 }
 
-h2 {
+div#interface {
+ width: 95%;
+ margin: 0px auto 0px auto;
+ background-color: rgb(183, 240, 183);
+ padding: 0px 10px 10px 10px;
+ box-sizing: border-box;
+ box-shadow: 0px 1px 3px rgb(146, 146, 218);
+}
+
+header#cabecalho {
+ border-bottom: 1px solid #606060;
+ height: 112px;
+}
+
+header#cabecalho h1#pagina-titulo {
+ text-indent: 45px;
+}
+
+nav#menu, nav#menu ul, body {
+ margin-top: 0px;
+
+}
+
+nav#menu ul {
+ width: 800px;
+ margin: 0px auto 0px auto;
+ padding: 0px;
+}
+
+nav#menu li {
+ display: inline-block;
+ margin: 0px 4px 0px 4px;
+ padding: 6px 22px 6px 22px;
+ background-color: rgb(4, 214, 216, 0.3); 
+ transition: background-color .2s;
+ /* Toda vez que a propriedade mudar de valor, mude de cor suavemente até alcançar a nova cor escolhida. */
+}
+
+nav#menu a {
+ font-size: 17px;
+ color: #3605FA; /*azul do link do menu*/
+ text-decoration: none;
+}
+
+
+nav#menu li:hover {
+ background-color: #F8FA6C;
+ color: #FAFF91;
+}
+
+main, aside {
   display: inline-block;
+}
+
+main {
+  width: 80%;
+  height: 1254px;
+}
+
+aside {
+  width: 20%;
+  vertical-align: top;
+  height: 1254px;
+  border-left: 1px solid rgba(95, 95, 173, 0.63);
+  box-sizing: border-box;
+  padding: 10px;
+  
+}
+
+footer#rodape {
+  border-top: 1px solid rgba(95, 95, 173, 0.63);
+  text-align: center;
+}
+
+/* Deixar só isto */
+
+section#exemplo img, section#exemplo p {
+  display: inline-block;
+}
+
+div.middle img {
+  vertical-align: middle;
+}
+
+div.top img {
+  vertical-align: top;
+}
+
+div.bottom img {
+  vertical-align: bottom;
+}
+
+div.baseline img {
+  vertical-align: baseline;
 }
