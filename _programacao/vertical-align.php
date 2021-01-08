@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8"/>
   <!--<link rel="stylesheet" type="text/css" href="/viniciustutoriais/_css/main.css"/>-->
-  <link rel="stylesheet" type="text/css" href="/viniciustutoriais/_css/vertical-align.css"/>
+  <link rel="stylesheet" type="text/css" href="../_css/vertical-align.css"/>
   <title>Treinando <code>vertical-align</code></title>
 </head>
 <body>
