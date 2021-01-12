@@ -23,6 +23,10 @@
             <p>Parágrafo de exemplo..</p>
             <img src="../_imagens/gata-mae-no-muro.jpg" width="200px" height="200px;"/>
           </div>
+          <h3>Alinhando texto com <code>vertical-align: middle</code></h3>
+          <div class="middle">
+            <p>Parágrafo pai contendo <span>span filho</span></p>
+          </div>
         </article>
         <article id="exemplo-top">
           <h3>Alinhando imagem ao topo com <code>vertical-align: top</code></h3>

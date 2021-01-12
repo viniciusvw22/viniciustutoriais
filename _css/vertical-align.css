@@ -89,6 +89,15 @@ div.middle img {
   vertical-align: middle;
 }
 
+div.middle p {
+  font-size: 15pt;
+}
+
+div.middle span {
+  font-size: 10pt;
+  vertical-align: middle;
+}
+
 div.top img {
   vertical-align: top;
 }

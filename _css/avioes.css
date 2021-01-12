@@ -1,20 +1,15 @@
 @charset "UTF-8";
 
+main#artigo-aviao, aside#curso-aviacao {
+  height: 1138px;
+}
+
 main#artigo-aviao {
   float: right;
-  /*width: 83%;*/
-  /*height: 868px;*/
   border-left: 1px solid #606060;
   padding-left: 12px;
   padding-bottom: 10px;
 }
-/*
-aside#curso-aviacao {
-  float: left;
-  width: 198px;
-  height: 875px;
-}
-*/
 
 aside#curso-aviacao {
   float: left;
@@ -23,29 +18,51 @@ aside#curso-aviacao p {
   padding-right: 2px;
 }
 
+/* Tabela AC-130 */
+
 table#tabela-spec {
-  border: 1px solid black;
   border-spacing: 0px;
-  margin-right: auto;
   margin-left: auto;
+  margin-right: auto;
+}
+
+table#tabela-spec caption {
+  font-size: 14pt;
+  font-family: "Titillium Web", sans-serif;
+  color: #808080;
+  font-weight: bold;
+}
+
+table#tabela-spec caption span {
+  font-size: 8pt;
+  display: block;
+  float: right;
+  margin-top: 8px;
+  color: #000000;
+}
+
+table#tabela-spec th.centralizada {
+  text-align: center;
+  background-color: rgb(107, 224, 107);
+}
+
+table#tabela-spec th.ce {
+  text-align: right;
+  background-color: rgb(210, 210, 240);
+  color: #000000;
+  font-weight: bold;
+  vertical-align: top;
 }
 
 table#tabela-spec td, table#tabela-spec th {
-  border: 1px solid black;
+  border: 1px solid #000000; 
   padding: 10px;
+  vertical-align: middle;
 }
 
 table#tabela-spec td {
   text-align: left;
-}
-
-table#tabela-spec th {
-  text-align: right;
-  vertical-align: top;
+  background-color: rgb(238, 214, 170);
 }
 
 
-table#tabela-spec th.cabecalho-coluna {
-  text-align: center;
-  background-color: rgba(127, 127, 235, 0.829);
-}

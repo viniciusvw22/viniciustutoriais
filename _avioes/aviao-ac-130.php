@@ -38,22 +38,20 @@
           </section>
           <section id="spec-tecnicas">
             <table id="tabela-spec">
-              <caption>
-                <h2>Especificações Técnicas</h2>
-              </caption>
+              <caption>Lockheed AC-130 <span>Jan/2021</span></caption>
               <tr>
-                <th colspan="2" class="cabecalho-coluna">Descrição</th>
+                <th colspan="2" class="centralizada">Descrição</th>
               </tr>
               <tr>
-                <th>Tipo/Missão</th>
+                <th class="ce">Tipo/Missão</th>
                 <td>Aeronave militar de apoio a forças terrestres</td>
               </tr>
               <tr>
-                <th>País de origem</th>
+                <th class="ce">País de origem</th>
                 <td>Estados Unidos</td>
               </tr>
               <tr>
-                <th rowspan="3">Variantes</th>
+                <th rowspan="3" class="ce">Variantes</th>
                 <td>AC-130A Spectre</td>
               </tr>
               <tr>
@@ -62,8 +60,54 @@
               <tr>
                 <td>AC-130H Spectre</td>
               </tr>
+              <tr>
+                <th class="ce">Tripulação</th>
+                <td>13</td>
+              </tr>
+              <tr><th colspan="2" class="centralizada">Especificações</th></tr>
+              <tr><th colspan="2" class="centralizada">Dimensões</th></tr>
+              <tr>
+                <th class="ce">Comprimento</th>
+                <td>29,8 m</td>
+              </tr>
+              <tr>
+                <th class="ce">Envergadura</th>
+                <td>40,4 m</td>
+              </tr>
+              <tr>
+                <th class="ce">Altura</th>
+                <td>11,7 m</td>
+              </tr>
+              <tr>
+                <th class="ce">Área das asas</th>
+                <td>162,2 m²</td>
+              </tr>
+              <tr>
+                <th class="ce">Alongamento</th>
+                <td>10.1</td>
+              </tr>
+              <tr>
+                <th colspan="2" class="centralizada">Peso(s)</th>
+              </tr>
+              <tr>
+                <th class="ce">Peso carregado</th>
+                <td>50 520 kg</td>
+              </tr>
+              <tr>
+                <th colspan="2" class="centralizada">Propulsão</th>
+              </tr>
+              <tr>
+                <th class="ce">Motor(es)</th>
+                <td>4 x turboélices Allison T56-A-15</td>
+              </tr>
+              <tr>
+                <th colspan="2" class="centralizada">Performance</th>
+              </tr>
+              <tr>
+                <th class="ce">Velocidade máxima</th>
+                <td>480 km/h</td>
+              </tr>
             </table>
-
           </section>
         </article>
       </main>
