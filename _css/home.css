@@ -1,17 +1,137 @@
 @charset "UTF-8";
 
-/* Este estilo será aplicado somente à página home.html */
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
 
-main#meus-artigos {
-  float: left;
-
-  border-right: 1px solid #606060;
-  padding-bottom: 10px;
-  padding-left: 45px;
+@font-face {
+  font-family: 'FonteLogo';
+  src: url("../_fonts/bubblegum-sans-regular.otf");
 }
 
+@font-face {
+  font-family: 'FonteLogo';
+  src: url("../fonts/bubblegum-sans-regular.otf");
+}
+
+/* Este estilo será aplicado somente à página home.html */
+
+/* Classes genéricas */
+.esquerda {
+  text-align: left;
+}
+
+h2.aprenda-programar {
+  font-family: "Consolas", "courier new", monospace;
+}
+
+div#artigos-diversos h1 {
+  font-family: "FonteLogo", sans-serif;
+  color: rgba(0,0,0,0.8);
+}
+section#noticias header h1 {
+  font-family: "Inconsolata", monospace;
+}
+
+
+
+header#cabecalho h1 {
+  text-indent: 5px;
+}
+
+.referencia-pesquisa {
+  font-size: 16px;
+}
+
+main#artigos-programacao {
+  float: left;
+  border-right: 1px solid #606060;
+  padding-bottom: 10px;
+}
+
+
+main#artigos-programacao h3, main#artigos-programacao footer {
+  display: inline;
+}
+
+/* Article e filhos. */
+
+article {
+  padding: 3px;
+  background-color: #9dc8e2;
+  background-clip: padding-box;
+  margin: 10px 0px 10px 10px;
+}
+
+article footer p {
+  font-size: smaller;
+  display: inline;  
+}
+
+
+/* Artigos diversos */
+div#artigos-diversos {
+  clear: left;
+  padding: 10px 0px 10px 0px;
+  border-right: 1px solid black;
+  width: 80%;
+  box-sizing: border-box;
+}
+
+header#artigos-diversos-cabecalho h1 {
+  margin-bottom: 0px;
+  margin-top: 4px;
+}
+
+div#artigos-diversos header h2 {
+  margin-top: 0px;
+}
+
+div#artigos-diversos h2 {
+  text-align: center;
+}
+
+div#artigos-diversos h2.referencia-pesquisa {
+  text-align: left;
+}
+
+div#artigos-diversos section h3 {
+  margin-bottom: 5px;
+  margin-top: 0px;
+}
+
+div#artigos-diversos section p {
+  margin: 0px;
+}
+
+div#artigos-diversos section h4 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  display: inline-block;
+}
+
+
+section#artigos-diversos section#artigos-avioes h2 {
+  margin-top: 0px;
+}
+
+/* Seção de notícias */
+
+header#noticias-cabecalho {
+  width: fit-content;
+}
+header#noticias-cabecalho h1 {
+  margin-bottom: 0px;
+}
+header h2 {
+  text-align: left;
+  text-indent: 5px;
+  margin-top: 0px;
+}
+
+
+/* Conteúdo lateral */
 aside#adquira-cursos {
   float: right; 
+  /*box-shadow: 1px 1px 4px black;*/
 }
 
 aside#adquira-cursos p, aside#adquira-cursos h3 {
@@ -20,6 +140,7 @@ aside#adquira-cursos p, aside#adquira-cursos h3 {
 
 footer#rodape {
   clear: both;
+
 }
 
 footer#rodape p {
