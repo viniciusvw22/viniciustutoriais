@@ -14,12 +14,12 @@
 
 <body>
   <div id="interface">
-    <!-- Importando header#cabecalho -->
+    <!-- Importando header#cabecalho-pagina -->
     <?php require '_templates/menu-nav.php';?>
     <script>
       var sobre_mim = document.createElement("p");
       sobre_mim.innerText = "Meu nome é Vinícius Viana, tenho 24 anos e estudo Ciências da Computação. Fiz este site para mostrar meus conhecimentos em programação.";
-      document.getElementById("cabecalho").appendChild(sobre_mim);
+      document.getElementById("cabecalho-pagina").appendChild(sobre_mim);
     </script>
     <div id="conteudos">
       <main id="artigos-programacao">
@@ -33,7 +33,7 @@
           </footer>
         </article>
         <article>
-          <h3><a href="_programacao/declaracao-important.html">Aprenda a usar o valor CSS !important e porque devemos evitá-lo!</a></h3>
+          <h3><a href="_programacao/declaracao-important.html">Aprenda a usar o valor CSS !important e porque devemos evi&shy;tá&shy;-lo!</a></h3>
           <footer>
             <p>No ar em 9/01/2021</p>
           </footer>
@@ -61,18 +61,20 @@
         <h3>Cursos completos de programação</h3>
         <p>Adquira já o curso básico de HTML5/CSS</p>
       </aside>
-      <div id="artigos-diversos">
-        <header id="artigos-diversos-cabecalho">
-          <h1>Artigos diversos</h1>
-          <h2 class="referencia-pesquisa">Fontes de pesquisa: várias fontes</h2>
-        </header>
-        <section id="artigos-avioes">
-          <header>
-            <h2>Aviões</h2>
+      <div id="conteudo-secund">
+        <section id="artigos-diversos">
+          <header id="artigos-diversos-cabecalho">
+            <h1>Artigos diversos</h1>
+            <h2 class="referencia-pesquisa">Fontes de pesquisa: várias fontes</h2>
           </header>
-          <article>
-            <h3><a href="_avioes/aviao-ac-130.php">Conheça o Lockheed AC-130</a></h3>
-          </article>
+          <section id="artigos-avioes">
+            <header>
+              <h2>Aviões</h2>
+            </header>
+            <article>
+              <h3><a href="_avioes/aviao-ac-130.php">Conheça o Lockheed AC-130</a></h3>
+            </article>
+          </section>
         </section>
         <section id="noticias">
           <header id="noticias-cabecalho">
