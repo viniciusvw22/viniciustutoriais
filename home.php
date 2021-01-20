@@ -24,7 +24,8 @@
     <div id="conteudos">
       <main id="artigos-programacao">
         <header>
-          <h2 class="aprenda-programar">&lt;Aprenda a programar/&gt;</h2>
+          <h2 class="aprenda-programar">Aprenda a programar</h2>
+          <p class="direita">&lt;..em HTML!&gt;</p>
         </header>
         <article>
           <h3><a href="_programacao/box-sizing.php">Aprenda a propridade CSS: box-sizing hoje! </a></h3>
@@ -58,7 +59,7 @@
         </article>
       </main>
       <aside id="adquira-cursos">
-        <h3>Cursos completos de programação</h3>
+        <h3>Cursos completos gratuitos de programação</h3>
         <p>Adquira já o curso básico de HTML5/CSS</p>
       </aside>
       <div id="conteudo-secund">
