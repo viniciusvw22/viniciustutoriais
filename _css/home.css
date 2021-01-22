@@ -22,6 +22,9 @@ div#conteudo-secund {
   text-align: left;
 }
 
+.caixa-maior {
+  height: 40px;
+}
 
 .referencia-pesquisa {
   font-size: 16px;
@@ -70,18 +73,23 @@ article {
 }
 
 article h3 {
-  background-color: rgba(198, 193, 219, 0.733);
+  /*background-color: rgba(198, 193, 219, 0.733);*/
+  background-color: rgba(188, 188, 248, 0.5);
   padding: 8px;
-  width: fit-content;
-  max-width: 531px;
+  width: 530px;
+  /*max-width: 531px;*/
+  max-width: 80%;
   margin: 0px;
   box-shadow: 1px 1px 2px rgb(71, 66, 66);
   font-weight: 500;
   font-size: 17px;
+  text-align: center;
+  transition: width 1s;
 }
 
 article h3:hover {
   background-color: rgb(202, 250, 170);
+  width: 638px;
 }
 
 article h3 a {

@@ -34,7 +34,7 @@
           </footer>
         </article>
         <article>
-          <h3><a href="_programacao/declaracao-important.html">Aprenda a usar o valor CSS !important e porque devemos evi&shy;tá&shy;-lo!</a></h3>
+          <h3 class="caixa-maior"><a href="_programacao/declaracao-important.html">Aprenda a usar o valor CSS !important e porque devemos evi&shy;tá&shy;-lo!</a></h3>
           <footer>
             <p>No ar em 9/01/2021</p>
           </footer>
