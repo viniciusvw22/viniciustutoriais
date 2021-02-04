@@ -72,7 +72,7 @@ article {
   margin: 10px 0px 10px 10px;
 }
 
-article h3 {
+article h3, article h4 {
   /*background-color: rgba(198, 193, 219, 0.733);*/
   background-color: rgba(188, 188, 248, 0.5);
   padding: 8px;
@@ -87,7 +87,7 @@ article h3 {
   transition: width 1s;
 }
 
-article h3:hover {
+article h3:hover, article h4:hover {
   background-color: rgb(202, 250, 170);
   width: 638px;
 }

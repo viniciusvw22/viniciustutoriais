@@ -24,39 +24,58 @@
     <div id="conteudos">
       <main id="artigos-programacao">
         <header>
-          <h2 class="aprenda-programar">Aprenda a programar</h2>
-          <p class="direita">&lt;..em HTML!&gt;</p>
+          <h2 class="aprenda-programar">Programação</h2>
         </header>
-        <article>
-          <h3><a href="_programacao/box-sizing.php">Aprenda a propridade CSS: box-sizing hoje! </a></h3>
-          <footer>
-            <p>No ar em 16/01/2021</p>
-          </footer>
-        </article>
-        <article>
-          <h3 class="caixa-maior"><a href="_programacao/declaracao-important.html">Aprenda a usar o valor CSS !important e porque devemos evi&shy;tá&shy;-lo!</a></h3>
-          <footer>
-            <p>No ar em 9/01/2021</p>
-          </footer>
-        </article>
-        <article>
-          <h3><a href="_programacao/explicando-transition.html">Aprenda a usar a propriedade transition!</a></h3>
-          <footer>
-            <p>No ar em 2/01/2021</p>
-          </footer>
-        </article>
-        <article>
-          <h3><a href="_programacao/explicando-section-nav-footer.php">Aprenda a usar section, aside e footer!</a></h3>
-          <footer>
-            <p>No ar em 26/12/2020</p>
-          </footer>
-        </article>
-        <article>
-          <h3><a href="_programacao/vertical-align.php">Explicando a propriedade CSS vertical-align</a></h3>
-          <footer>
-            <p>No ar em 19/12/2020</p>
-          </footer>
-        </article>
+        
+        <section id="html">
+          <h3>HTML</h3>
+          <article>
+            <h4><a href="_programacao/explicando-section-nav-footer.php">Tags <code>section</code>, <code>aside</code> e <code>footer</code></a></h4>
+            <footer>
+              <p>No ar em 26/12/2020</p>
+            </footer>
+          </article>
+
+        </section>
+
+        <section id="css">
+          <h3>CSS</h3>
+          <article>
+            <h4><a href="_programacao/box-sizing.php">Propriedade <code>box-sizing</code></a></h4>
+            <footer>
+              <p>No ar em 16/01/2021</p>
+            </footer>
+          </article>
+          <article>
+            <h4 class="caixa-maior"><a href="_programacao/declaracao-important.html">O valor <code>!important</code> CSS e porque evi&shy;tá&shy;-lo</a></h4>
+            <footer>
+              <p>No ar em 9/01/2021</p>
+            </footer>
+          </article>
+          <article>
+            <h4><a href="_programacao/explicando-transition.html">Propriedade <code>transition</code></a></h4>
+            <footer>
+              <p>No ar em 2/01/2021</p>
+            </footer>
+          </article>
+          <article>
+            <h4><a href="_programacao/vertical-align.php">Propriedade <code>vertical-align</code></a></h4>
+            <footer>
+              <p>No ar em 19/12/2020</p>
+            </footer>
+          </article>  
+        </section>
+
+        <section id="javascript">
+          <h3>Javascript</h3>
+          <article>
+            <h4><a href="_programacao/_javascript/acenda-lampada.html">Acenda a lâmpada</a></h4>    
+          
+          </article>
+        </section>
+
+        
+        
       </main>
       <aside id="adquira-cursos">
         <h3>Cursos completos gratuitos de programação</h3>
