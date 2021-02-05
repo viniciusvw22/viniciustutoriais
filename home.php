@@ -80,7 +80,7 @@
         <section id="javascript">
           <h3>Javascript</h3>
           <article>
-            <h4><a href="_programacao/_javascript/acenda-lampada.html">Acenda a 
+            <h4><a href="_programacao/js-acenda-lampada.html">Acenda a 
             lâmpada</a></h4>    
           
           </article>
@@ -103,7 +103,7 @@
               <h2>Aviões</h2>
             </header>
             <article>
-              <h3><a href="_avioes/aviao-ac-130.php">Conheça o Lockheed AC-130
+              <h3><a href="_artigos/aviao-ac-130.php">Conheça o Lockheed AC-130
               </a></h3>
             </article>
           </section>
