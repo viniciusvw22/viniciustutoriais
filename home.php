@@ -47,7 +47,8 @@
         <section id="css">
           <h3>CSS</h3>
           <article>
-            <h4><a href="_programacao/box-sizing.php">Propriedade <code>box-sizing</code></a></h4>
+            <h4><a href="_programacao/box-sizing.php">Propriedade 
+            <code>box-sizing</code></a></h4>
             <footer>
               <p>No ar em 16/01/2021</p>
             </footer>
@@ -116,7 +117,8 @@
             <h2>Brasil</h2>
             <article>
               <h3>
-                <a href="https://tvbrasil.ebc.com.br/brasil-em-dia/2020/10/ferrovia-norte-sul-deve-ser-entregue-em-julho-de-2021">
+                <a href="https://tvbrasil.ebc.com.br/brasil-em-dia/2020/10/
+                ferrovia-norte-sul-deve-ser-entregue-em-julho-de-2021">
                 Ferrovia Norte-Sul deve ser entregue em julho de 2021.</a>
               </h3>
               <p>Vai ser mais uma opção para levar o que o Brasil produz, 
@@ -124,20 +126,28 @@
               </p>
               <footer>
                 <p>No ar em 14/10/2020 - 09:45 |</p>
-                <p><a href="https://tvbrasil.ebc.com.br/brasil-em-dia/2020/10/ferrovia-norte-sul-deve-ser-entregue-em-julho-de-2021">
+                <p><a href="https://tvbrasil.ebc.com.br/brasil-em-dia/2020/10/
+                ferrovia-norte-sul-deve-ser-entregue-em-julho-de-2021">
                 Fonte: TVBrasil - Brasil em Dia</a>
                 </p>
               </footer>
             </article>
             <article>
-              <h3><a href="https://www.gov.br/pt-br/noticias/transito-e-transportes/2020/10/representantes-do-governo-vistoriam-obras-da-ferrovia-norte-sul-que-sera-entregue-em-2021">
+              <h3><a href="https://www.gov.br/pt-br/noticias/
+              transito-e-transportes/2020/10/
+              representantes-do-governo-vistoriam-obras-da-ferrovia-norte-sul-
+              que-sera-entregue-em-2021">
               Representantes do Governo vistoriam obras da Ferrovia Norte-Sul 
               que será entregue em 2021</a></h3>
               <p>Ferrovia vai baratear custos do transporte de carga 
               beneficiando produtores e consumidores</p>
               <footer>
-                <p>No ar em 13/10/2020 - 17:26 | Atualizado em 13/10/2020 17:27</p>
-                <p><a href="https://www.gov.br/pt-br/noticias/transito-e-transportes/2020/10/representantes-do-governo-vistoriam-obras-da-ferrovia-norte-sul-que-sera-entregue-em-2021">Fonte: Gov.Br</a></p>
+                <p>No ar em 13/10/2020 - 17:26 | Atualizado em 13/10/2020
+                 17:27</p>
+                <p><a href="https://www.gov.br/pt-br/noticias/
+                transito-e-transportes/2020/10/
+                representantes-do-governo-vistoriam-obras-da-ferrovia-norte-sul-
+                que-sera-entregue-em-2021">Fonte: Gov.Br</a></p>
               </footer>
             </article>
           </section>
