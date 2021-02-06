@@ -1,5 +1,3 @@
-<?php //include_once("home.php"); ?> 
-
 <!DOCTYPE html>
 <html lang="pt-br">
 
