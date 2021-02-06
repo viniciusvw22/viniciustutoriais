@@ -5,17 +5,34 @@
 	<meta charset="UTF-8"/>
 	<link rel="stylesheet" href="_css/main.css" type="text/css"/>
   <link rel="stylesheet" href="_css/home.css" type="text/css"/>
-	<!-- rel: relação do documento linkado. 
-	   href: url do estilo
-	   type: tipo do conteúdo linkado.-->
+  <script type="text/javascript" src="_javascript/funcoes.js"></script>
+
+  <!-- TODO: consertar links (line breaks são considerados como 1 espaço) -->
+
 	<title>Vinícius Tutoriais</title>
   
 </head>
 
 <body>
-  <div id="interface">
-    <!-- Importando header#cabecalho-pagina -->
-    <?php require '_templates/menu-nav.php';?>
+  <div id="interface"> 
+    <header id="cabecalho-pagina">
+      <nav id="menu">
+        <ul>
+          <li onmouseover="mudaFoto('lampada-acesa.jpg')"><a href="../home.php">Home</a></li>
+          <li>
+            <a href="https://github.com/viniciusvw22/viniciustutoriais/blob/main/home.php">
+              Código no GitHub!
+            </a>
+          </li>
+          <li><a href="tutoriais-html">HTML-CSS-Javascript</a></li>
+          <li><a href="tutoriais-historia">História</a></li>
+          <li><a href="contato.html">Contato</a></li>
+        </ul>
+      </nav>
+      <h1 id="pagina-titulo">Vinícius Tutoriais</h1>
+      <img id="icone" src="_imagens/home-icon.jpg"/>
+    </header>
+
     <script>
       var sobre_mim = document.createElement("p");
       sobre_mim.innerText = "Meu nome é Vinícius Viana, tenho 24 anos e estudo "

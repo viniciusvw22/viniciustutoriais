@@ -8,3 +8,7 @@ function mudaLampada(tipo) {
     }
   }
 }     
+
+function mudaFoto(novaFoto) {
+  document.getElementById("icone").src= "/viniciustutoriais/_imagens/" + novaFoto;
+}

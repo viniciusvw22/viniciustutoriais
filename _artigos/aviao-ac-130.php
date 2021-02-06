@@ -16,12 +16,7 @@
         <h3>Curso de aviação</h3>
         <p>Adquira hoje seu curso de aviação em 10 dias!
 
-        Adquira hoje seu curso de aviação em 10 dias!
-        Adquira hoje seu curso de aviação em 10 dias!
-        Adquira hoje seu curso de aviação em 10 dias!
-        Adquira hoje seu curso de aviação em 10 dias!
-        Adquira hoje seu curso de aviação em 10 dias!
-        Adquira hoje seu curso de aviação em 10 dias!
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero, animi aut. A aliquid harum minus, iure sit animi. Ratione alias harum consequuntur ipsa nobis mollitia aspernatur doloremque amet, facilis neque!
         
         </p>
       </aside>
