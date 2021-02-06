@@ -35,6 +35,15 @@ header#cabecalho h1 {
   text-indent: 5px;
 }
 
+header#cabecalho h1 {
+  text-indent: 5px;
+}
+
+header#cabecalho-pagina img {
+  float: right;
+  margin-right: 30px;
+}
+
 /* Main */
 main#artigos-programacao {
   float: left;

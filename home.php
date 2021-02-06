@@ -7,7 +7,9 @@
   <link rel="stylesheet" href="_css/home.css" type="text/css"/>
   <script type="text/javascript" src="_javascript/funcoes.js"></script>
 
-  <!-- TODO: consertar links (line breaks são considerados como 1 espaço) -->
+  <!-- TODO: consertar links (line breaks são considerados como 1 espaço) 
+       Colar o menu em outras páginas.
+    -->
 
 	<title>Vinícius Tutoriais</title>
   
@@ -17,29 +19,27 @@
   <div id="interface"> 
     <header id="cabecalho-pagina">
       <nav id="menu">
-        <ul>
-          <li onmouseover="mudaFoto('lampada-acesa.jpg')"><a href="../home.php">Home</a></li>
-          <li>
+        <ul onmouseout="mudaFoto('_imagens/home.png')">
+          <li onmouseover="mudaFoto('_imagens/home.png')">
+            <a href="../home.php">Home</a>
+          </li>
+          <li onmouseover="mudaFoto('_imagens/github.png')">
             <a href="https://github.com/viniciusvw22/viniciustutoriais/blob/main/home.php">
               Código no GitHub!
             </a>
           </li>
-          <li><a href="tutoriais-html">HTML-CSS-Javascript</a></li>
-          <li><a href="tutoriais-historia">História</a></li>
-          <li><a href="contato.html">Contato</a></li>
+          <li onmouseover="mudaFoto('_imagens/newspaper.png')"><a href="https://www.google.com.br">Notícias</a></li>
+          <li onmouseover="mudaFoto('_imagens/contato.png')"><a href="contato.html">Contato</a></li>
         </ul>
+        <img id="icone" width="100" height="100" src="_imagens/home.png"/>
       </nav>
       <h1 id="pagina-titulo">Vinícius Tutoriais</h1>
-      <img id="icone" src="_imagens/home-icon.jpg"/>
+      <p>Meu nome é Vinícius Viana, tenho 24 anos e estudo Ciência da    
+        Computação. Fiz este site para mostrar meus conhecimentos em programação.
+      </p>      
+     
     </header>
 
-    <script>
-      var sobre_mim = document.createElement("p");
-      sobre_mim.innerText = "Meu nome é Vinícius Viana, tenho 24 anos e estudo "
-      sobre_mim.innerText += "Ciências da Computação. Fiz este site para "
-      sobre_mim.innerText += "mostrar meus conhecimentos em programação.";
-      document.getElementById("cabecalho-pagina").appendChild(sobre_mim);
-    </script>
     <div id="conteudos">
       <main id="artigos-programacao">
         <header>
@@ -134,8 +134,7 @@
             <h2>Brasil</h2>
             <article>
               <h3>
-                <a href="https://tvbrasil.ebc.com.br/brasil-em-dia/2020/10/
-                ferrovia-norte-sul-deve-ser-entregue-em-julho-de-2021">
+                <a href="https://tvbrasil.ebc.com.br/brasil-em-dia/2020/10/ferrovia-norte-sul-deve-ser-entregue-em-julho-de-2021">
                 Ferrovia Norte-Sul deve ser entregue em julho de 2021.</a>
               </h3>
               <p>Vai ser mais uma opção para levar o que o Brasil produz, 
@@ -143,8 +142,7 @@
               </p>
               <footer>
                 <p>No ar em 14/10/2020 - 09:45 |</p>
-                <p><a href="https://tvbrasil.ebc.com.br/brasil-em-dia/2020/10/
-                ferrovia-norte-sul-deve-ser-entregue-em-julho-de-2021">
+                <p><a href="https://tvbrasil.ebc.com.br/brasil-em-dia/2020/10/ferrovia-norte-sul-deve-ser-entregue-em-julho-de-2021">
                 Fonte: TVBrasil - Brasil em Dia</a>
                 </p>
               </footer>
@@ -152,8 +150,7 @@
             <article>
               <h3><a href="https://www.gov.br/pt-br/noticias/
               transito-e-transportes/2020/10/
-              representantes-do-governo-vistoriam-obras-da-ferrovia-norte-sul-
-              que-sera-entregue-em-2021">
+              representantes-do-governo-vistoriam-obras-da-ferrovia-norte-sul-que-sera-entregue-em-2021">
               Representantes do Governo vistoriam obras da Ferrovia Norte-Sul 
               que será entregue em 2021</a></h3>
               <p>Ferrovia vai baratear custos do transporte de carga 

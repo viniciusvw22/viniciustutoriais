@@ -9,6 +9,6 @@ function mudaLampada(tipo) {
   }
 }     
 
-function mudaFoto(novaFoto) {
-  document.getElementById("icone").src= "/viniciustutoriais/_imagens/" + novaFoto;
+function mudaFoto(foto) {
+  document.getElementById("icone").src = foto;
 }
