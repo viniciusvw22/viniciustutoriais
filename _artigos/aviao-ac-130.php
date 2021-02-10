@@ -5,13 +5,35 @@
     <title>Avião AC-130</title>
     <link type="text/css" rel="stylesheet" href="../_css/main.css"/>
     <link type="text/css" rel="stylesheet" href="../_css/avioes.css"/>
+    <script type="text/javascript" src="../_javascript/funcoes.js"></script>
   </head>
   <body>
-
     <div id="interface">
-      <?php 
-        require '../_templates/menu-nav.php';
-      ?>
+      <header id="cabecalho-pagina">
+        <nav id="menu">
+          <ul onmouseout="mudaFoto('../_imagens/article-logo.png')">
+            <li onmouseover="mudaFoto('../_imagens/home.png')">
+              <a href="../index.php">Home</a>
+            </li>
+            <li onmouseover="mudaFoto('../_imagens/github.png')">
+              <a href="https://github.com/viniciusvw22/viniciustutoriais/blob/main/home.php">
+                Código no GitHub!
+              </a>
+            </li>
+            <li onmouseover="mudaFoto('../_imagens/newspaper.png')">
+              <a href="https://www.google.com.br">Notícias</a>
+            </li>
+            <li onmouseover="mudaFoto('../_imagens/contato.png')"><a href="contato.html">Contato</a></li>
+          </ul>
+          <img id="icone" width="100" height="100" 
+               src="../_imagens/article-logo.png" alt="Desenho de folha"/>
+        </nav>
+        <h1 id="pagina-titulo">Vinícius Tutoriais</h1>
+        <p>Meu nome é Vinícius Viana, tenho 24 anos e estudo Ciência da    
+          Computação. Fiz este site para mostrar meus conhecimentos em programação.
+        </p>      
+      </header>
+
       <aside id="curso-aviacao">
         <h3>Curso de aviação</h3>
         <p>Adquira hoje seu curso de aviação em 10 dias!
@@ -108,6 +130,12 @@
       </main>
       <footer id="rodape">
         <p>Alguma informação errada? Sugira uma alteração <a href="github.com/vini">aqui pelo GitHub!</a></p>
+
+        <section id="creditos">
+          <h2>Créditos de imagens:</h2>
+          <img width="50" height="50" src="../_imagens/article-logo.png" alt="Desenho de folha"/>
+          <a target="_blank" href="https://www.pngwing.com/en/free-png-zkrym">Link da foto clicando aqui.</a>
+        </section>
     </footer>
     </div>
   </body>

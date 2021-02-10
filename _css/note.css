@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+body {
+  font-family: Arial;
+}
+
+section#corpo-full {
+  padding: 10px;
+}
+
+section#conteudo {
+  width: 1100px;
+  margin: auto;
+}
+
+iframe#frame-spec {
+  width: 550px;
+  height: 425px;
+  margin-left: 10px;
+  border: none;
+  overflow: hidden;
+}
+
+header#cab-pri h4#data-publ {
+  text-align: left;
+  margin-bottom: 15px;
+}
+
+iframe#frame-spec::-webkit-scrollbar {
+  display: none;
+}

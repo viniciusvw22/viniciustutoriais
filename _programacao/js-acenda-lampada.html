@@ -3,9 +3,36 @@
 <head>
   <meta charset="utf-8"/>
   <title>Acenda a lâmpada usando JS</title>
+  <link rel="stylesheet" type="text/css" href="../_css/main.css"/>
   <script type="text/javascript" src="../_javascript/funcoes.js"></script>
 </head>
 <body>
+
+  <header id="cabecalho-pagina">
+    <nav id="menu">
+      <ul onmouseout="mudaFoto('../_imagens/js-logo.png')">
+        <li onmouseover="mudaFoto('../_imagens/home.png')">
+          <a href="../index.php">Home</a>
+        </li>
+        <li onmouseover="mudaFoto('../_imagens/github.png')">
+          <a href="https://github.com/viniciusvw22/viniciustutoriais/blob/main/index.php">
+            Código no GitHub!
+          </a>
+        </li>
+        <li onmouseover="mudaFoto('../_imagens/newspaper.png')">
+          <a href="https://www.google.com.br">Notícias</a>
+        </li>
+        <li onmouseover="mudaFoto('../_imagens/contato.png')"><a href="contato.html">Contato</a></li>
+      </ul>
+      <img src="../_imagens/js-logo.png" id="icone" width="100"
+          height="100"/>
+    </nav>
+    <h1 id="pagina-titulo">Vinícius Tutoriais</h1>
+    <p>Meu nome é Vinícius Viana, tenho 24 anos e estudo Ciência da    
+      Computação. Fiz este site para mostrar meus conhecimentos em programação.
+    </p>      
+  </header>
+
   <h1>Acenda a lâmpada</h1>
   <img width="169" height="220" id="lampada" 
        src="../_imagens/lampada-apagada.jpg" 
@@ -17,5 +44,11 @@
     <a href="https://github.com/viniciusvw22/viniciustutoriais/tree/main/_programacao/js-acenda-lampada.html">Código no GitHub aqui
     </a>
   </p>
+
+  <footer>
+    
+    <img width="50" height="50" src="../_imagens/js-logo.png"/>
+    <a href="https://www.freepnglogos.com/images/javascript-39404.html">javascript vector logo yellow png transparent javascript vector from freepnglogos.com</a>
+  </footer>
 </body>
 </html>

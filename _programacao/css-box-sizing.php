@@ -5,14 +5,36 @@
 	<meta charset="UTF-8">
   <link rel="stylesheet" type="text/css" href="../_css/main.css"/>
   <link rel="stylesheet" type="text/css" href="../_css/blocos.css"/>
-	
+	<script type="text/javascript" src="../_javascript/funcoes.js"></script>
 	<title>Título Aba</title>
 </head>
 
 <body>
 	<div id="interface">
 
-    <?php require '../_templates/menu-nav.php';?>
+    <header id="cabecalho-pagina">
+      <nav id="menu">
+        <ul onmouseout="mudaFoto('../_imagens/css-logo.png')">
+          <li onmouseover="mudaFoto('../_imagens/home.png')">
+            <a href="../index.php">Home</a>
+          </li>
+          <li onmouseover="mudaFoto('../_imagens/github.png')">
+            <a href="https://github.com/viniciusvw22/viniciustutoriais/blob/main/index.php">
+              Código no GitHub!
+            </a>
+          </li>
+          <li onmouseover="mudaFoto('../_imagens/newspaper.png')">
+            <a href="https://www.google.com.br">Notícias</a>
+          </li>
+          <li onmouseover="mudaFoto('../_imagens/contato.png')"><a href="contato.html">Contato</a></li>
+        </ul>
+        <img id="icone" width="100" height="100" src="../_imagens/css-logo.png"/>
+      </nav>
+      <h1 id="pagina-titulo">Vinícius Tutoriais</h1>
+      <p>Meu nome é Vinícius Viana, tenho 24 anos e estudo Ciência da    
+        Computação. Fiz este site para mostrar meus conhecimentos em programação.
+      </p>      
+    </header>
     
     <main id="explica-box-sizing"> 
       <h1>Explicando box-sizing</h1>  
