@@ -13,6 +13,10 @@ section#conteudo {
   margin: auto;
 }
 
+map area {
+  outline-color: blue;
+}
+
 iframe#frame-spec {
   width: 550px;
   height: 425px;

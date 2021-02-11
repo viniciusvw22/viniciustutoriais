@@ -134,7 +134,8 @@
                       width="560" height="315" allowfullscreen
                       title="Separador de planilhas em Visual Basic.Net"
                       name="sepvb">
-              </iframe>
+              </iframe><ifr
+
             </article>
           </section>
 
@@ -161,7 +162,9 @@
             </header>
             <article>
               <h3>
-                <a href="_artigos/note-g50-80.php">Lenovo G50-80</code></a>
+                <a href="_artigos/note-g50-80.php">Lenovo G50-80
+                   (demonstração de <code>iframe</code> e mapas de imagem)
+                </a>
               </h3>
             </article>
           </section>

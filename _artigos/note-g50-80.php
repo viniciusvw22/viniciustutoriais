@@ -51,9 +51,29 @@
          sobre os recursos do Lenovo G50-80</p>
 
       <section id="conteudo">       
-        <img src="../_imagens/note.png" width="480"/ height="429"
-             alt="Notebook Lenovo G50-80 visto de frente">
-        <iframe src="note-g50-80-specs.php" id="frame-spec" name="janela">
+        <img src="../_imagens/note.png" width="480" height="412"
+             alt="Notebook Lenovo G50-80 visto de frente" 
+             usemap="#meumapa"/>
+        <map name="meumapa">
+          <area shape="circle" coords="237,19,8"
+                href="note-g50-80-specs.html#camera" 
+                target="janela" alt="Câmera do Lenovo G50-80"/>
+          <area shape="poly" coords="51,28,423,28,396,207,77,208"
+                href="note-g50-80-specs.html#tela" alt="Tela do Lenovo G50-80"
+                target="janela"/>
+          <area shape="poly" coords="336,254,401,254,423,321,349,321"
+                href="note-g50-80-specs.html#teclado" 
+                target="janela" alt="Teclado Accutype do Lenovo G50-80"/>
+          <area shape="poly" coords="446,327,470,390,468,405,445,345"
+                href="note-g50-80-specs.html#usb" alt="USB3.0 do Lenovo G50-80"
+                target="janela"/>
+          <area shape="poly" coords="26,332,27,349,4,403,3,387" 
+                href="note-g50-80-specs.html#usb" 
+                alt="USB3.0 do Lenovo G50-80"
+                target="janela"/>
+        </map>
+
+        <iframe src="note-g50-80-specs.html" id="frame-spec" name="janela">
         </iframe>
       </section>
     </article>
