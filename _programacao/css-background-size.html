@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8"/>
+  <script type="text/javascript" src="../_javascript/funcoes.js"></script>
+  
+  <link rel="stylesheet" type="text/css" href="../_css/main.css"/>
+  <style>
+    div#pai {
+      width: 500px;
+      height: 500px;
+      border: 2px solid blue;
+      background: url("../_imagens/galeria-02.jpg") no-repeat;
+      background-size: 250px 250px;
+    }
+
+
+  </style>
+</head>
+<body>
+
+<div id="interface">
+  <header id="cabecalho-pagina">
+    <nav id="menu">
+      <ul onmouseout="mudaFoto('../_imagens/css-logo.png')">
+        <li onmouseover="mudaFoto('../_imagens/home.png')">
+          <a href="../index.php">Home</a>
+        </li>
+        <li onmouseover="mudaFoto('../_imagens/github.png')">
+          <a href="https://github.com/viniciusvw22/viniciustutoriais/blob/main/index.php">
+            Código no GitHub!
+          </a>
+        </li>
+        <li onmouseover="mudaFoto('../_imagens/newspaper.png')">
+          <a href="https://www.google.com.br">Notícias</a>
+        </li>
+        <li onmouseover="mudaFoto('../_imagens/contato.png')"><a href="contato.html">Contato</a></li>
+      </ul>
+      <img id="icone" width="100" height="100" src="../_imagens/css-logo.png"/>
+    </nav>
+    <h1 id="pagina-titulo">Vinícius Tutoriais</h1>
+    <p>Meu nome é Vinícius Viana, tenho 24 anos e estudo Ciência da    
+      Computação. Fiz este site para mostrar meus conhecimentos em programação.
+    </p>      
+  </header>
+
+  <main>
+    <article id="artigo-principal">
+      <header>
+        <h2>Propriedade <code>background-size</code></h2>
+      </header>
+
+
+      <p>A propriedade background-size define as dimensões (largura e altura) da imagem que foi colocada usando CSS.</p>
+
+
+      <section id="sintaxe">
+        <header>
+          <h3>Sintaxe:</h3> 
+        </header>
+        <span>background: width height;</span>
+      </section>
+
+      <section id="exemplo">
+        <header>
+          <h3>Exemplo:</h3>
+        </header>
+          <pre>
+          <code>
+            div#pai {
+              width: 500px;
+              height: 500px;
+              border: 2px solid blue;
+              background: url("galeria-02.jpg") no-repeat;
+              background-size: 250px 250px;
+            }
+          </code>
+          </pre>
+      </section>
+
+      <section id="diferencas">
+        <p>A diferença de width e height de background-size e width e height colocados
+        sozinhos (no caso, 500px) é que o primeiro se refere ao width e height do 
+        elemento, enquanto que no background-size, eles se referem ao width e height 
+        da imagem colocada dentro do elemento.</p>
+        
+        <h3>Observe:</h3>
+        <div id="pai">
+
+        </div>
+      </section>
+    </article>
+  </main>
+
+  <aside id="anuncios">
+    <h3>Vote a favor da bomba</h3>
+    <a target="_blank" href="https://www12.senado.leg.br/ecidadania/visualizacaomateria?id=145430">
+    <strong>Vote aqui</strong> a favor da bomba atômica brasileira</a>
+    </iframe>
+
+    <h3>Cursos completos gratuitos de programação</h3>
+    <p>Adquira já o curso básico de HTML5/CSS</p>
+  </aside>
+
+  <footer id="rodape">
+    <p>Copyright &copy; <?php echo date("Y")?> by Vinícius Viana</p>
+    <p>Alguma informação errada? Sugira uma alteração <a href="">aqui pelo
+    GitHub!</a></p>
+    <address>
+      <p>
+        <a href="https://www.linkedin.com/in/viniciusvianawerneck" 
+          target="_blank">Linkedin</a> |
+        <a href="https://wa.me/5521972221307" target="_blank"/>Whatsapp</a>
+      </p>
+    </address>
+  </footer>
+</div>
+</body>
+</html>
+
+
+

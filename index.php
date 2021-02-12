@@ -42,187 +42,208 @@
       </p>      
     </header>
 
+    <main id="artigos-programacao">
+      <header id="cab-pri">
+        <h4>Home (Você está aqui)</h4>
+        <h2 class="aprenda-programar">Programação</h2>
+        <h3>por Vinícius Viana</h3>
+        <h4 id="data-publ">site criado em 01/01/2021</h4>
+      </header>
 
-    <div id="conteudos">
-      <main id="artigos-programacao">
-        <header id="cab-pri">
-          <h4>Home (Você está aqui)</h4>
-          <h2 class="aprenda-programar">Programação</h2>
-          <h3>por Vinícius Viana</h3>
-          <h4 id="data-publ">site criado em 01/01/2021</h4>
-        </header>
+      <section id="prog-geral">
+        <h3>Conhecimentos gerais</h3>
+        <article>
+          <h4>O que e código-fonte e código executável e qual a 
+          diferença?</h4>
+          <p>No ar em 11/02/2021</p>
+        </article>
+
+
+      </section>
+      
+      <section id="html">
+        <h3>HTML</h3>
+        <article>
+          <h4>
+            <a href="_programacao/html-section-nav-footer.php"> Tags
+              <code>section</code>, <code>aside</code> e <code>footer</code>
+            </a>
+          </h4>
+          <footer>
+            <p>No ar em 26/12/2020</p>
+          </footer>
+        </article>
+
+      </section>
+
+      <section id="css">
+        <h3>CSS</h3>
+
+        <article>
+          <h4>
+            <a href="http://localhost//viniciustutoriais/_programacao/css-background-size.html">
+              Propriedade <code>background-size</code>
+            </a>
+          </h4>
+          <footer>
+            <p>No ar em 12/02/2021</p>
+          </footer>
+        </article>
+
+
+        <article>
+          <h4><a href="_programacao/css-box-sizing.php">
+            Propriedade <code>box-sizing</code></a></h4>
+          <footer>
+            <p>No ar em 16/01/2021</p>
+          </footer>
+        </article>
+        <article>
+          <h4 class="caixa-maior">
+            <a href="_programacao/css-important.html">O valor 
+            <code>!important</code> CSS e porque evi&shy;tá&shy;-lo</a></h4>
+          <footer>
+            <p>No ar em 9/01/2021</p>
+          </footer>
+        </article>
+        <article>
+          <h4><a href="_programacao/css-transition.html">Propriedade 
+          <code>transition</code></a></h4>
+          <footer>
+            <p>No ar em 2/01/2021</p>
+          </footer>
+        </article>
+        <article>
+          <h4><a href="_programacao/css-vertical-align.php">Propriedade 
+          <code>vertical-align</code></a></h4>
+          <footer>
+            <p>No ar em 19/12/2020</p>
+          </footer>
+        </article>  
+      </section>
+
+      <section id="javascript">
+        <h3>Javascript</h3>
+        <article>
+          <h4><a href="_programacao/js-acenda-lampada.html">Acenda a 
+          lâmpada</a></h4>    
         
-        <section id="html">
-          <h3>HTML</h3>
-          <article>
-            <h4>
-              <a href="_programacao/html-section-nav-footer.php"> Tags
-                <code>section</code>, <code>aside</code> e <code>footer</code>
-              </a>
-            </h4>
-            <footer>
-              <p>No ar em 26/12/2020</p>
-            </footer>
-          </article>
+        </article>
+      </section>
+    </main>
 
-        </section>
+    <aside id="anuncios">
+        <h3>Vote a favor da bomba</h3>
+        <a target="_blank" href="https://www12.senado.leg.br/ecidadania/visualizacaomateria?id=145430">
+        <strong>Vote aqui</strong> a favor da bomba atômica brasileira</a>
+        </iframe>
 
-        <section id="css">
-          <h3>CSS</h3>
-          <article>
-            <h4><a href="_programacao/css-box-sizing.php">Propriedade 
-            <code>box-sizing</code></a></h4>
-            <footer>
-              <p>No ar em 16/01/2021</p>
-            </footer>
-          </article>
-          <article>
-            <h4 class="caixa-maior">
-              <a href="_programacao/css-important.html">O valor 
-              <code>!important</code> CSS e porque evi&shy;tá&shy;-lo</a></h4>
-            <footer>
-              <p>No ar em 9/01/2021</p>
-            </footer>
-          </article>
-          <article>
-            <h4><a href="_programacao/css-transition.html">Propriedade 
-            <code>transition</code></a></h4>
-            <footer>
-              <p>No ar em 2/01/2021</p>
-            </footer>
-          </article>
-          <article>
-            <h4><a href="_programacao/css-vertical-align.php">Propriedade 
-            <code>vertical-align</code></a></h4>
-            <footer>
-              <p>No ar em 19/12/2020</p>
-            </footer>
-          </article>  
-        </section>
+      <h3>Cursos completos gratuitos de programação</h3>
+      <p>Adquira já o curso básico de HTML5/CSS</p>
+    </aside>
 
-        <section id="javascript">
-          <h3>Javascript</h3>
+    <div id="conteudo-secund">
+      <section id="portfolio">
+        <header>
+          <h1>Meu Portfólio</h1>
+        </header>
+
+        <section id="vbnet">
+          <h2>VB.Net</h2>
           <article>
-            <h4><a href="_programacao/js-acenda-lampada.html">Acenda a 
-            lâmpada</a></h4>    
-          
+            <h3>Separador de planilhas</h3>
+            <iframe src="https://www.youtube.com/embed/EJNvkrzziwQ"
+                    width="560" height="315" allowfullscreen
+                    title="Separador de planilhas em Visual Basic.Net"
+                    name="sepvb">
+            </iframe><ifr
+
           </article>
         </section>
 
-      </main>
-      <aside id="anuncios">
-          <h3>Vote a favor da bomba</h3>
-          <a target="_blank" href="https://www12.senado.leg.br/ecidadania/visualizacaomateria?id=145430">
-          <strong>Vote aqui</strong> a favor da bomba atômica brasileira</a>
-          </iframe>
+      </section>
 
-        <h3>Cursos completos gratuitos de programação</h3>
-        <p>Adquira já o curso básico de HTML5/CSS</p>
-      </aside>
-
-      <div id="conteudo-secund">
-        <section id="portfolio">
+      <section id="artigos-diversos">
+        <header id="artigos-diversos-cabecalho">
+          <h1>Artigos diversos</h1>
+          <p class="referencia-pesquisa">
+            Fontes de pesquisa: várias fontes</p>
+        </header>
+        <section id="artigos-avioes">
           <header>
-            <h1>Meu Portfólio</h1>
+            <h2>Aviões</h2>
           </header>
-
-          <section id="vbnet">
-            <h2>VB.Net</h2>
-            <article>
-              <h3>Separador de planilhas</h3>
-              <iframe src="https://www.youtube.com/embed/EJNvkrzziwQ"
-                      width="560" height="315" allowfullscreen
-                      title="Separador de planilhas em Visual Basic.Net"
-                      name="sepvb">
-              </iframe><ifr
-
-            </article>
-          </section>
-
+          <article>
+            <h3><a href="_artigos/aviao-ac-130.php">Conheça o Lockheed AC-130
+            </a></h3>
+          </article>
         </section>
-  
-        <section id="artigos-diversos">
-          <header id="artigos-diversos-cabecalho">
-            <h1>Artigos diversos</h1>
-            <p class="referencia-pesquisa">
-              Fontes de pesquisa: várias fontes</p>
+        <section id="eletronicos">
+          <header>
+            <h2>Eletrônicos</h2>
           </header>
-          <section id="artigos-avioes">
-            <header>
-              <h2>Aviões</h2>
-            </header>
-            <article>
-              <h3><a href="_artigos/aviao-ac-130.php">Conheça o Lockheed AC-130
-              </a></h3>
-            </article>
-          </section>
-          <section id="eletronicos">
-            <header>
-              <h2>Eletrônicos</h2>
-            </header>
-            <article>
-              <h3>
-                <a href="_artigos/note-g50-80.php">Lenovo G50-80
-                   (demonstração de <code>iframe</code> e mapas de imagem)
-                </a>
-              </h3>
-            </article>
-          </section>
+          <article>
+            <h3>
+              <a href="_artigos/note-g50-80.php">Lenovo G50-80
+                  (demonstração de <code>iframe</code> e mapas de imagem)
+              </a>
+            </h3>
+          </article>
         </section>
+      </section>
 
-        <section id="noticias">
-          <header id="noticias-cabecalho">
-            <h1>Notícias do Brasil e do Mundo</h1>
-            <p class="referencia-pesquisa">Fontes de pesquisa: várias fontes</p>
-          </header>
-          <section id="noticias-brasil">
-            <h2>Brasil</h2>
-            <article>
-              <h3>
-                <a href="https://tvbrasil.ebc.com.br/brasil-em-dia/2020/10/ferrovia-norte-sul-deve-ser-entregue-em-julho-de-2021">
-                Ferrovia Norte-Sul deve ser entregue em julho de 2021.</a>
-              </h3>
-              <p>Vai ser mais uma opção para levar o que o Brasil produz, 
-                contribuindo para reduzir o custo do transporte de cargas.
+      <section id="noticias">
+        <header id="noticias-cabecalho">
+          <h1>Notícias do Brasil e do Mundo</h1>
+          <p class="referencia-pesquisa">Fontes de pesquisa: várias fontes</p>
+        </header>
+        <section id="noticias-brasil">
+          <h2>Brasil</h2>
+          <article>
+            <h3>
+              <a href="https://tvbrasil.ebc.com.br/brasil-em-dia/2020/10/ferrovia-norte-sul-deve-ser-entregue-em-julho-de-2021">
+              Ferrovia Norte-Sul deve ser entregue em julho de 2021.</a>
+            </h3>
+            <p>Vai ser mais uma opção para levar o que o Brasil produz, 
+              contribuindo para reduzir o custo do transporte de cargas.
+            </p>
+            <footer>
+              <p>No ar em 14/10/2020 - 09:45 |</p>
+              <p><a href="https://tvbrasil.ebc.com.br/brasil-em-dia/2020/10/ferrovia-norte-sul-deve-ser-entregue-em-julho-de-2021">
+              Fonte: TVBrasil - Brasil em Dia</a>
               </p>
-              <footer>
-                <p>No ar em 14/10/2020 - 09:45 |</p>
-                <p><a href="https://tvbrasil.ebc.com.br/brasil-em-dia/2020/10/ferrovia-norte-sul-deve-ser-entregue-em-julho-de-2021">
-                Fonte: TVBrasil - Brasil em Dia</a>
-                </p>
-              </footer>
-            </article>
-            <article>
-              <h3><a target="_blank" href="https://www.gov.br/pt-br/noticias/transito-e-transportes/2020/10/representantes-do-governo-vistoriam-obras-da-ferrovia-norte-sul-que-sera-entregue-em-2021">
-              Representantes do Governo vistoriam obras da Ferrovia Norte-Sul 
-              que será entregue em 2021</a></h3>
-              <p>Ferrovia vai baratear custos do transporte de carga 
-              beneficiando produtores e consumidores</p>
-              <footer>
-                <p>No ar em 13/10/2020 - 17:26 | Atualizado em 13/10/2020
-                 17:27</p>
-                <p><a target="_blank" href="https://www.gov.br/pt-br/noticias/transito-e-transportes/2020/10/representantes-do-governo-vistoriam-obras-da-ferrovia-norte-sul-que-sera-entregue-em-2021">
-                Fonte: Gov.Br</a></p>
-              </footer>
-            </article>
-          </section>
-          <section id="noticias-mundo">
-            <h2>Mundo</h2>
-            <article>
-              <h3><a href="https://www.google.com.br">Trump Lorem ipsum, dolor 
-              sit amet consectetur adipisicing elit.</a></h3>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos 
-              iste quis necessitatibus laudantium recusandae delectus vero iure.
-              </p>
-              <footer>
-                <p>No ar em 6/10/2020 - 17:43</p>
-                <p><a href="https://www.google.com.br">Fonte: Lorem Ipsum</a>
-                </p>
-              </footer>
-            </article>
-          </section>
+            </footer>
+          </article>
+          <article>
+            <h3><a target="_blank" href="https://www.gov.br/pt-br/noticias/transito-e-transportes/2020/10/representantes-do-governo-vistoriam-obras-da-ferrovia-norte-sul-que-sera-entregue-em-2021">
+            Representantes do Governo vistoriam obras da Ferrovia Norte-Sul 
+            que será entregue em 2021</a></h3>
+            <p>Ferrovia vai baratear custos do transporte de carga 
+            beneficiando produtores e consumidores</p>
+            <footer>
+              <p>No ar em 13/10/2020 - 17:26 | Atualizado em 13/10/2020
+                17:27</p>
+              <p><a target="_blank" href="https://www.gov.br/pt-br/noticias/transito-e-transportes/2020/10/representantes-do-governo-vistoriam-obras-da-ferrovia-norte-sul-que-sera-entregue-em-2021">
+              Fonte: Gov.Br</a></p>
+            </footer>
+          </article>
         </section>
-      </div>
+        <section id="noticias-mundo">
+          <h2>Mundo</h2>
+          <article>
+            <h3><a href="https://www.google.com.br">Trump Lorem ipsum, dolor 
+            sit amet consectetur adipisicing elit.</a></h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos 
+            iste quis necessitatibus laudantium recusandae delectus vero iure.
+            </p>
+            <footer>
+              <p>No ar em 6/10/2020 - 17:43</p>
+              <p><a href="https://www.google.com.br">Fonte: Lorem Ipsum</a>
+              </p>
+            </footer>
+          </article>
+        </section>
+      </section>
     </div>
     <footer id="rodape">
       <p>Copyright &copy; <?php echo date("Y")?> by Vinícius Viana</p>
