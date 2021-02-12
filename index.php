@@ -37,8 +37,9 @@
              alt="Ícone Home"/>
       </nav>
       <h1 id="pagina-titulo">Vinícius Tutoriais</h1>
-      <p>Meu nome é Vinícius Viana, tenho 24 anos e estudo Ciência da    
-        Computação. Fiz este site para mostrar meus conhecimentos em programação.
+      <p>Meu nome é Vinícius Viana, tenho <?php echo (Date("Y") - 1995);?>
+         anos e estudo Ciência da Computação. Fiz este site para mostrar meus 
+         conhecimentos em programação.
       </p>      
     </header>
 
