@@ -63,6 +63,8 @@
       
       <section id="html">
         <h3>HTML</h3>
+        
+
         <article>
           <h4>
             <a href="_programacao/html-section-nav-footer.php"> Tags
@@ -78,6 +80,18 @@
 
       <section id="css">
         <h3>CSS</h3>
+
+        <article>
+          <h4>
+            <a href="_artigos/album-fotos.php">
+              Álbum de fotos interativo utilizando CSS e listas 
+              (<code>&lt;ul&gt;</code>)
+            </a>
+          </h4>
+          <footer>
+            <p>No ar em 12/02/2021</p>
+          </footer>
+        </article>
 
         <article>
           <h4>
