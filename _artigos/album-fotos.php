@@ -48,13 +48,13 @@
 
       <ul id="album-fotos">
         <li id="foto01"><span>Banco no Horto do Barreto, em Niterói</span></li>
-        <li id="foto02"><span>Pôr do Sol visto do Shopping Bay Market, em 
-          Niterói </span></li>
-        <li id="foto03"><span>Jardim Japonês no Horto do Barreto, em Niterói
-        </span></li>
+        <li id="foto02"><span>
+                Pôr do Sol visto do Shopping Bay Market, em Niterói </span></li>
+        <li id="foto03"><span>
+                Jardim Japonês no Horto do Barreto, em Niterói</span></li>
         <li id="foto04"><span>Serra de Petrópolis</span></li>
-        <li id="foto05"><span>Museu da Força Expedicionária Brasileira,
-          em Petrópolis</span></li>
+        <li id="foto05"><span>
+            Museu da Força Expedicionária Brasileira, em Petrópolis</span></li>
         <li id="foto06"><span>Casa nos Estados Unidos</span></li>
       </ul>
 
