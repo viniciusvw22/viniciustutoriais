@@ -1,0 +1,58 @@
+form#contato {
+  width: 500px;
+  margin: auto;
+}
+
+fieldset#usuario {
+  background: url("../_imagens/icone-contato.png") no-repeat 100% 95%;
+}
+
+fieldset#endereco {
+  background: url("../_imagens/icone-endereco.png") no-repeat 100% 95%;
+}
+
+fieldset#mensagem {
+  background: url("../_imagens/icone-mensagem.png") no-repeat 100% 95%;
+}
+
+fieldset#pedido {
+  background: url("../_imagens/icone-pagamento.png") no-repeat 100% 95%;
+}
+
+form#contato input, form#contato textarea {
+  font-family: Arial, sans-serif;
+  font-size: 11pt;
+}
+
+form#contato input, form#contato textarea, form#contato select {
+  background-color: rgba(255, 255, 255, 0.75);
+}
+
+form#contato input:hover, form#contato textarea:hover {
+  background-color: rgb(221, 221, 221);
+}
+
+input#cEnviar {
+  border-radius: 30px;
+  width: 150px;
+  height: 40px;
+  transform: scale(0.9);
+}
+
+fieldset p {
+  margin: 20px;
+}
+
+textarea {
+  resize: none;
+}
+
+label {
+  display: inline-block;
+  text-align: right;
+}
+
+label#LMas, label#LFem {
+  text-align: left;
+}
+

@@ -56,15 +56,33 @@
         <article>
           <h4>O que e código-fonte e código executável e qual a 
           diferença?</h4>
-          <p>No ar em 11/02/2021</p>
+          <footer><p>No ar em 11/02/2021</p></footer>
         </article>
-
 
       </section>
       
       <section id="html">
         <h3>HTML</h3>
+        <article>
+          <h4>
+            <a href="_programacao/html-form-exemplo.php"> 
+              Exemplo de formulário (&lt;form&gt;)
+            </a>
+          </h4>
+          <footer><p>No ar em 19/02/2021</p></footer>
+        </article>
         
+        <article>
+          <h4>
+            <a href="_programacao/html-audio-video.html">Demonstração das tags 
+               <code>&lt;audio&gt;</code> e 
+               <code>&lt;video&gt;</code>
+            </a>
+          </h4>
+          <footer>
+            <p>No ar em 16/02/2021</p>
+          </footer>
+        </article>
 
         <article>
           <h4>

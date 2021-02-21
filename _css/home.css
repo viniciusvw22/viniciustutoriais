@@ -71,33 +71,32 @@ main#artigos-programacao article h4 {
   background-color: rgba(188, 188, 248, 0.5);
   padding: 8px 0px;
   width: 100%;
-  margin: 0px auto 0px auto;
+  margin: 0px auto 0px 0px;
   box-shadow: 1px 1px 2px rgb(71, 66, 66);
   font-weight: 500;
   font-size: 17px;
   text-align: center;
+  width: 80%;
 }
-
-
 
 main#artigos-programacao article h4:hover {
   background-color: rgb(202, 250, 170);
 }
 
 main#artigos-programacao article p {
-  margin: 10px 0px 2px 10px;
   position: relative;
-
+  margin-top: 5px;
+  text-align: right;
+}
+main#artigos-programacao footer {
+  width: 80%;
+  display: block;
 }
 
-main#artigos-programacao p {
-  margin-left: 5px;
-}
 
 main#artigos-programacao footer p {
   font-size: smaller;
   text-align: right;
-  display: block;
 }
 
 /* Article e filhos. */

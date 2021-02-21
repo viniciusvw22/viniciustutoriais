@@ -2,7 +2,7 @@
 <html lang="pt-br">
 <head>
   <meta charset="UTF-8"/>
-  <title>Lenovo G50-80</title>
+  <title>Álbum de fotos</title>
   <link rel="stylesheet" type="text/css" href="../_css/main.css"/>
   <link rel="stylesheet" type="text/css" href="../_css/album.css"/>
   <script type="text/javascript" src="../_javascript/funcoes.js"></script>

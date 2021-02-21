@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8"/>
+  <script type="text/javascript" src="../_javascript/funcoes.js"></script>
+  <link rel="stylesheet" type="text/css" href="../_css/main.css"/>
+
+</head>
+<body>
+
+<div id="interface">
+  <header id="cabecalho-pagina">
+    <nav id="menu">
+      <ul onmouseout="mudaFoto('../_imagens/css-logo.png')">
+        <li onmouseover="mudaFoto('../_imagens/home.png')">
+          <a href="../index.php">Home</a>
+        </li>
+        <li onmouseover="mudaFoto('../_imagens/github.png')">
+          <a href="https://github.com/viniciusvw22/viniciustutoriais/blob/main/index.php">
+            Código no GitHub!
+          </a>
+        </li>
+        <li onmouseover="mudaFoto('../_imagens/newspaper.png')">
+          <a href="https://www.google.com.br">Notícias</a>
+        </li>
+        <li onmouseover="mudaFoto('../_imagens/contato.png')"><a href="contato.html">Contato</a></li>
+      </ul>
+      <img id="icone" width="100" height="100" src="../_imagens/css-logo.png"/>
+    </nav>
+    <h1 id="pagina-titulo">Vinícius Tutoriais</h1>
+    <p>Meu nome é Vinícius Viana, tenho 24 anos e estudo Ciência da    
+      Computação. Fiz este site para mostrar meus conhecimentos em programação.
+    </p>      
+  </header>
+
+  <main id="artigo-principal">
+    <h1>Demonstração de áudios e vídeos do Google Glass</h1>
+    <section id="demo-audios">
+      <audio controls>
+        <source type="audio/x-aac" 
+                src="../_media/2009-lovers-carvings-bibio.m4a"/>
+        <source type="audio/mpeg"
+                src="../_media/2009-lovers-carvings-bibio.mp3"/>
+        <source type="audio/ogg" 
+                src="../_media/2009-lovers-carvings-bibio.ogg"/>
+        Áudio não suportado. Tente abrir a página em outro navegador.
+      </audio>
+
+    </section>
+    
+    <section id="demo-videos">
+      <h2>Getting Started</h2>
+      <video controls poster="../_imagens/video-mini03.jpg">
+        <source type="video/mp4" src="../_media/getting-started.mp4"/>
+        <source type="video/ogg" src="../_media/getting-started.ogv"/>
+        <source type="video/webm" src="../_media/getting-started.webm"/>
+      </video>
+
+      <h2>How it Feels</h2>
+      <video controls poster="../_imagens/video-mini02.jpg">
+        <source type="video/mp4" src="../_media/how-it-feels.mp4"/>  
+        <source type="video/ogg" src="../_media/how-it-feels.ogv"/>
+        <source type="video/webm" src="../_media/how-it-feels.webm"/>
+      </video>
+
+      <h2>One Day</h2>
+      <video controls poster="../_imagens/video-mini01.jpg">
+        <source type="video/mp4" src="../_media/one-day.mp4"/>
+        <source type="video/ogg" src="../_media/one-day.ogv"/>
+        <source type="video/webm" src="../_media/one-day.webm">
+      </video>
+    </section>
+    <footer id="fonte">
+      Fonte dos arquivos de mídia: 
+      <a href="https://www.google.com">
+      Google.com</a>
+    </footer>
+  </main>
+
+  <aside id="anuncios">
+    <h3>Vote a favor da bomba</h3>
+    <a target="_blank" href="https://www12.senado.leg.br/ecidadania/visualizacaomateria?id=145430">
+    <strong>Vote aqui</strong> a favor da bomba atômica brasileira</a>
+    </iframe>
+
+    <h3>Cursos completos gratuitos de programação</h3>
+    <p>Adquira já o curso básico de HTML5/CSS</p>
+  </aside>
+
+  <footer id="rodape">
+    <p>Copyright &copy; <?php echo date("Y")?> by Vinícius Viana</p>
+    <p>Alguma informação errada? Sugira uma alteração <a href="">aqui pelo
+    GitHub!</a></p>
+    <address>
+      <p>
+        <a href="https://www.linkedin.com/in/viniciusvianawerneck" 
+          target="_blank">Linkedin</a> |
+        <a href="https://wa.me/5521972221307" target="_blank"/>Whatsapp</a>
+      </p>
+    </address>
+  </footer>
+</div>
+</body>
+</html>
