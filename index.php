@@ -55,7 +55,7 @@
         <h3>Conhecimentos gerais</h3>
         <article>
           <h4>O que e código-fonte e código executável e qual a 
-          diferença?</h4>
+          diferença? (em construção) </h4>
           <footer><p>No ar em 11/02/2021</p></footer>
         </article>
 
