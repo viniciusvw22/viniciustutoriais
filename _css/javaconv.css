@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+ul#convencoes {
+  list-style-type: disc;
+}
+
+ul#convencoes li header h2 {
+  font-size: 18px;
+}
+
+ul#convencoes li h3 {
+  font-size: 15px;
+}
+
+ul#convencoes li header h2, ul#convencoes li header p {
+  display: inline;
+}
+
