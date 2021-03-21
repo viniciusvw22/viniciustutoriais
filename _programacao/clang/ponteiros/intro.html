@@ -74,27 +74,27 @@
       <section id="codigo">
         <pre>
           <code>
-            char d[3] = "ana";
+            int d = 30;
 
-            char *a = &d; /// o ponteiro a recebe o endereço da variável d.
+            int *a = &d; /// o ponteiro a recebe o endereço da variável d.
             
-            printf("Meu nome é %s", *a);
+            printf("O peso do meu cachorro é de %d kg", *a);
             
             /// Saída: 
-            Meu nome é ana 
+            O peso do meu cachorro é de 30 kg
           </code>
         </pre>
       </section>
 
       <section id="explica-codigo">
         <pre> 
-          <code> char d[3] = "ana"; </code>
+          <code> int d = 30; </code>
         </pre>
-        <p>Aqui eu declarei uma variável d, do tipo cadeia de caracteres, e atribuí a ela o valor "ana".</p>
+        <p>Aqui eu declarei uma variável d, do tipo inteiro (int), e atribuí a ela o valor 30 (kg).</p>
         
         <pre>
           <code> 
-            char *a = &d; 
+            int *a = &d; 
           </code> 
           /// o ponteiro a recebe o endereço da variável d, OU, o ponteiro a 
           aponta para a variável d.
@@ -105,17 +105,17 @@
            variável armazena endereços de memória.</p>
         <p>• operador & : retorna o endereço de memória de uma variável. No   
            caso, o endereço vale 1006.</p>
-        <p>• obs.: char significa que o ponteiro a aponta para uma variável do tipo char. Se a apontasse para uma variável do tipo inteiro, deveríamos escrever <code>int *a = &d;</code>, e assim sucessivamente.</p>
+        <p>• obs.: int significa que o ponteiro a aponta para uma variável do tipo inteiro. Se o ponteiro apontasse para uma variável do tipo double, deveríamos usar double na declaração.</p>
         
         <pre><code> 
-            printf("Meu nome é %s", *a); 
+            printf("O peso do meu cachorro é de %d kg", *a); 
         </code></pre>
 
         <p> • operador * : também é usado para retornar o valor de uma variável 
           que está em um certo endereço. Como a vale 1006, *a retornará o valor
-          que está na variável de endereço 1006, valor que no caso é "ana".
+          que está na variável de endereço 1006, valor que no caso é 30 (kg).
           <br/>
-          Saída: Meu nome é ana.
+          Saída: O peso do meu cachorro é de 30 kg
         </p>
 
       </section>
