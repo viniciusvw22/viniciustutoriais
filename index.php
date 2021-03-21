@@ -188,13 +188,8 @@
     </main>
 
     <aside id="anuncios">
-        <h3>Vote a favor da bomba</h3>
-        <a target="_blank" href="https://www12.senado.leg.br/ecidadania/visualizacaomateria?id=145430">
-        <strong>Vote aqui</strong> a favor da bomba atômica brasileira</a>
-        </iframe>
-
-      <h3>Cursos completos gratuitos de programação</h3>
-      <p>Adquira já o curso básico de HTML5/CSS</p>
+      <h3>Curso de HTML5</h3>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur saepe eveniet non doloribus vel.</p>
     </aside>
 
     <div id="conteudo-secund">
@@ -211,8 +206,7 @@
                     width="560" height="315" allowfullscreen
                     title="Separador de planilhas em Visual Basic.Net"
                     name="sepvb">
-            </iframe><ifr
-
+            </iframe>
           </article>
         </section>
 
