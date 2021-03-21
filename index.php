@@ -68,6 +68,9 @@
              ponteiros em C (operadores <code>*</code> e <code>&</code>)
             </a>
           </h4>
+          <footer>
+            <p>No ar em <date datetime="2021-03-20 23:00">20/03/2021</date></p>
+          </footer>
         </article>
       
       </section>
