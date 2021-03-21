@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<meta charset="UTF-8"/>
+	<link rel="stylesheet" href="../../../_css/main.css" type="text/css"/>
+  <link rel="stylesheet" href="../../../_css/home.css" type="text/css"/>
+  <script type="text/javascript" src="../../../_javascript/funcoes.js"></script>
+
+  <!-- TODO: consertar links (line breaks são considerados como 1 espaço) 
+       Colar o menu em outras páginas.
+    -->
+
+	<title>Introdução a ponteiros em C</title>
+
+  <style>
+    #explica-codigo pre {
+      background-color: rgb(196, 196, 247);
+    }
+  </style>
+  
+</head>
+
+<body>
+  <div id="interface"> 
+    <header id="cabecalho-pagina">
+      <nav id="menu">
+        <ul onmouseout="mudaFoto('../../../_imagens/home.png')">
+          <li onmouseover="mudaFoto('../../../_imagens/home.png')">
+            <a href="../../../index.php">Home</a>
+          </li>
+          <li onmouseover="mudaFoto('../../../_imagens/github.png')">
+            <a href="https://github.com/viniciusvw22/viniciustutoriais/blob/main/_programacao/clang/ponteiros/intro.html">
+              Código no GitHub
+            </a>
+          </li>
+          <li onmouseover="mudaFoto('../../../_imagens/newspaper.png')">
+            <a href="https://www.google.com.br">Notícias</a>
+          </li>
+          <li onmouseover="mudaFoto('../../../_imagens/contato.png')">
+            <a href="contato.html">Contato</a></li>
+        </ul>
+        <img id="icone" width="100" height="100" 
+             src="../../../_imagens/home.png" alt="Ícone Home"/>
+      </nav>
+      <h1 id="pagina-titulo">Vinícius Tutoriais</h1>
+      <p>Meu nome é Vinícius Viana, tenho <?php echo (Date("Y") - 1995);?>
+         anos e estudo Ciência da Computação. Fiz este site para mostrar meus 
+         conhecimentos em programação.
+      </p>      
+    </header>
+
+    <main>
+      <h1>Ponteiros em C</h1>
+      <p>Para entender ponteiros, primeiro é preciso saber: </p>
+      <ol>
+        <li>O que é uma variável</li>
+        <li>O que é um endereço de memória</li>
+      </ol>
+
+      <img src="ponteiros.png" alt="Imagem da memória do computador, com
+       espaços vazios, ou seja, variáveis."/>
+      
+      <p>• Variáveis são espaços vazios na memória que podem armazenar 
+           valores.</p>
+      <p>• Endereço de memória é simplismente o local onde uma variável   
+           está, assim como o endereço de uma casa em uma rua.
+      </p>
+      <p>• Agora sim, ponteiro é uma variável que armazena o endereço de outra variável. <br/><br/>
+        Assim no exemplo, temos que a variável a é um ponteiro que armazena 
+        o endereço da variável d, logo dizemos que a aponta para d. 
+      </p>
+
+      <section id="codigo">
+        <pre>
+          <code>
+            char d[3] = "ana";
+
+            char *a = &d; /// o ponteiro a recebe o endereço da variável d.
+            
+            printf("Meu nome é %s", *a);
+            
+            /// Saída: 
+            Meu nome é ana 
+          </code>
+        </pre>
+      </section>
+
+      <section id="explica-codigo">
+        <pre> 
+          <code> char d[3] = "ana"; </code>
+        </pre>
+        <p>Aqui eu declarei uma variável d, do tipo cadeia de caracteres, e atribuí a ela o valor "ana".</p>
+        
+        <pre>
+          <code> 
+            char *a = &d; 
+          </code> 
+          /// o ponteiro a recebe o endereço da variável d, OU, o ponteiro a 
+          aponta para a variável d.
+        </pre>
+        <p>Aqui eu declarei o ponteiro a, e em seguida atribuí o endereço da
+           variável d a ele (== 1006).</p>
+        <p>• operador * : serve para declarar um ponteiro, isto é, diz que esta 
+           variável armazena endereços de memória.</p>
+        <p>• operador & : retorna o endereço de memória de uma variável. No   
+           caso, o endereço vale 1006.</p>
+        <p>• obs.: char significa que o ponteiro a aponta para uma variável do tipo char. Se a apontasse para uma variável do tipo inteiro, deveríamos escrever <code>int *a = &d;</code>, e assim sucessivamente.</p>
+        
+        <pre><code> 
+            printf("Meu nome é %s", *a); 
+        </code></pre>
+
+        <p> • operador * : também é usado para retornar o valor de uma variável 
+          que está em um certo endereço. Como a vale 1006, *a retornará o valor
+          que está na variável de endereço 1006, valor que no caso é "ana".
+          <br/>
+          Saída: Meu nome é ana.
+        </p>
+
+      </section>
+
+      
+
+    </main>
+    <aside id="anuncios">
+        <h3>Curso de HTML5</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, id dolore. Amet quos atque est aut hic expedita libero, placeat laboriosam dolores dignissimos quaerat reiciendis autem nulla praesentium rerum sequi.</p>
+    </aside>
+
+    <footer id="rodape">
+      <p>Copyright &copy; <?php echo date("Y")?> by Vinícius Viana</p>
+      <p>Alguma informação errada? Sugira uma alteração <a href="">aqui pelo
+      GitHub!</a></p>
+      <address>
+        <p>
+          <a href="https://www.linkedin.com/in/viniciusvianawerneck" 
+            target="_blank">Linkedin</a> |
+          <a href="https://wa.me/5521972221307" target="_blank"/>Whatsapp</a>
+        </p>
+      </address>
+    </footer>
+  </div>  
+
+</body>
+
+</html>

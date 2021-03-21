@@ -60,6 +60,18 @@
         </article>
       </section>
 
+      <section id="clang">
+        <h3>Linguagem C</h3>
+        <article>
+          <h4>
+            <a href="_programacao/clang/ponteiros/intro.html"> Introdução a
+             ponteiros em C (operadores <code>*</code> e <code>&</code>)
+            </a>
+          </h4>
+        </article>
+      
+      </section>
+
       <section id="java">
         <h3>Java</h3>
 
